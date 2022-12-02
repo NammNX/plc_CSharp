@@ -1,0 +1,16 @@
+C:\Users\admin\Desktop\PLC_CSharp\PLC_CSharp\bin\Debug\PLC_CSharp.exe.config
+C:\Users\admin\Desktop\PLC_CSharp\PLC_CSharp\bin\Debug\PLC_CSharp.exe
+C:\Users\admin\Desktop\PLC_CSharp\PLC_CSharp\bin\Debug\PLC_CSharp.pdb
+C:\Users\admin\Desktop\PLC_CSharp\PLC_CSharp\bin\Debug\HslCommunication.dll
+C:\Users\admin\Desktop\PLC_CSharp\PLC_CSharp\bin\Debug\HslCppExtension.dll
+C:\Users\admin\Desktop\PLC_CSharp\PLC_CSharp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\PLC_CSharp\PLC_CSharp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\admin\Desktop\PLC_CSharp\PLC_CSharp\obj\Debug\PLC_CSharp.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PLC_CSharp\PLC_CSharp\obj\Debug\PLC_CSharp.csproj.SuggestedBindingRedirects.cache
+C:\Users\admin\Desktop\PLC_CSharp\PLC_CSharp\obj\Debug\PLC_CSharp.Form1.resources
+C:\Users\admin\Desktop\PLC_CSharp\PLC_CSharp\obj\Debug\PLC_CSharp.Properties.Resources.resources
+C:\Users\admin\Desktop\PLC_CSharp\PLC_CSharp\obj\Debug\PLC_CSharp.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\PLC_CSharp\PLC_CSharp\obj\Debug\PLC_CSharp.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PLC_CSharp\PLC_CSharp\obj\Debug\PLC_CSharp.csproj.CopyComplete
+C:\Users\admin\Desktop\PLC_CSharp\PLC_CSharp\obj\Debug\PLC_CSharp.exe
+C:\Users\admin\Desktop\PLC_CSharp\PLC_CSharp\obj\Debug\PLC_CSharp.pdb

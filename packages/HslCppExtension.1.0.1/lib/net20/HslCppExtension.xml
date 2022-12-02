@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HslCppExtension</name>
+    </assembly>
+    <members>
+        <member name="T:HslCppExtension.NetworkDeviceBaseExtension">
+            <summary>
+            NetworkDeviceBase的写入数据的方法扩展，方便CPP项目的调用，解决方法重载的问题。
+            </summary>
+        </member>
+        <member name="M:HslCppExtension.NetworkDeviceBaseExtension.WriteInt16(HslCommunication.Core.Net.NetworkDeviceBase,System.String,System.Int16)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.Int16)"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkDeviceBaseExtension.WriteInt16Array(HslCommunication.Core.Net.NetworkDeviceBase,System.String,System.Int16[])">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.Int16[])"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkDeviceBaseExtension.WriteUInt16(HslCommunication.Core.Net.NetworkDeviceBase,System.String,System.UInt16)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.UInt16)"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkDeviceBaseExtension.WriteUInt16Array(HslCommunication.Core.Net.NetworkDeviceBase,System.String,System.UInt16[])">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.UInt16[])"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkDeviceBaseExtension.WriteInt32(HslCommunication.Core.Net.NetworkDeviceBase,System.String,System.Int32)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.Int32)"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkDeviceBaseExtension.WriteInt32Array(HslCommunication.Core.Net.NetworkDeviceBase,System.String,System.Int32[])">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.Int32[])"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkDeviceBaseExtension.WriteUInt32(HslCommunication.Core.Net.NetworkDeviceBase,System.String,System.UInt32)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.UInt32)"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkDeviceBaseExtension.WriteUInt32Array(HslCommunication.Core.Net.NetworkDeviceBase,System.String,System.UInt32[])">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.UInt32[])"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkDeviceBaseExtension.WriteInt64(HslCommunication.Core.Net.NetworkDeviceBase,System.String,System.Int64)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.Int64)"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkDeviceBaseExtension.WriteInt64Array(HslCommunication.Core.Net.NetworkDeviceBase,System.String,System.Int64[])">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.Int64[])"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkDeviceBaseExtension.WriteUInt64(HslCommunication.Core.Net.NetworkDeviceBase,System.String,System.UInt64)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.UInt64)"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkDeviceBaseExtension.WriteUInt64Array(HslCommunication.Core.Net.NetworkDeviceBase,System.String,System.UInt64[])">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.UInt64[])"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkDeviceBaseExtension.WriteSingle(HslCommunication.Core.Net.NetworkDeviceBase,System.String,System.Single)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.Single)"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkDeviceBaseExtension.WriteSingleArray(HslCommunication.Core.Net.NetworkDeviceBase,System.String,System.Single[])">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.Single[])"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkDeviceBaseExtension.WriteDouble(HslCommunication.Core.Net.NetworkDeviceBase,System.String,System.Double)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.Double)"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkDeviceBaseExtension.WriteDoubleArray(HslCommunication.Core.Net.NetworkDeviceBase,System.String,System.Double[])">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.Double[])"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkDeviceBaseExtension.WriteString(HslCommunication.Core.Net.NetworkDeviceBase,System.String,System.String)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.String)"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkDeviceBaseExtension.WaitBool(HslCommunication.Core.Net.NetworkDeviceBase,System.String,System.Boolean,System.Int32,System.Int32)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Wait(System.String,System.Boolean,System.Int32,System.Int32)"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkDeviceBaseExtension.WaitInt16(HslCommunication.Core.Net.NetworkDeviceBase,System.String,System.Int16,System.Int32,System.Int32)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Wait(System.String,System.Int16,System.Int32,System.Int32)"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkDeviceBaseExtension.WaitUInt16(HslCommunication.Core.Net.NetworkDeviceBase,System.String,System.UInt16,System.Int32,System.Int32)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Wait(System.String,System.UInt16,System.Int32,System.Int32)"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkDeviceBaseExtension.WaitInt32(HslCommunication.Core.Net.NetworkDeviceBase,System.String,System.Int32,System.Int32,System.Int32)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Wait(System.String,System.Int32,System.Int32,System.Int32)"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkDeviceBaseExtension.WaitUInt32(HslCommunication.Core.Net.NetworkDeviceBase,System.String,System.UInt32,System.Int32,System.Int32)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Wait(System.String,System.UInt32,System.Int32,System.Int32)"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkDeviceBaseExtension.WaitInt64(HslCommunication.Core.Net.NetworkDeviceBase,System.String,System.Int64,System.Int32,System.Int32)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Wait(System.String,System.Int64,System.Int32,System.Int32)"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkDeviceBaseExtension.WaitUInt64(HslCommunication.Core.Net.NetworkDeviceBase,System.String,System.UInt64,System.Int32,System.Int32)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Wait(System.String,System.UInt64,System.Int32,System.Int32)"/>
+        </member>
+        <member name="T:HslCppExtension.NetworkUdpDeviceBaseExtension">
+            <summary>
+            NetworkUdpDeviceBase的写入数据的方法扩展，方便CPP项目的调用，解决方法重载的问题。
+            </summary>
+        </member>
+        <member name="M:HslCppExtension.NetworkUdpDeviceBaseExtension.WriteInt16(HslCommunication.Core.Net.NetworkUdpDeviceBase,System.String,System.Int16)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.Int16)"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkUdpDeviceBaseExtension.WriteInt16Array(HslCommunication.Core.Net.NetworkUdpDeviceBase,System.String,System.Int16[])">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.Int16[])"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkUdpDeviceBaseExtension.WriteUInt16(HslCommunication.Core.Net.NetworkUdpDeviceBase,System.String,System.UInt16)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.UInt16)"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkUdpDeviceBaseExtension.WriteUInt16Array(HslCommunication.Core.Net.NetworkUdpDeviceBase,System.String,System.UInt16[])">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.UInt16[])"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkUdpDeviceBaseExtension.WriteInt32(HslCommunication.Core.Net.NetworkUdpDeviceBase,System.String,System.Int32)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.Int32)"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkUdpDeviceBaseExtension.WriteInt32Array(HslCommunication.Core.Net.NetworkUdpDeviceBase,System.String,System.Int32[])">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.Int32[])"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkUdpDeviceBaseExtension.WriteUInt32(HslCommunication.Core.Net.NetworkUdpDeviceBase,System.String,System.UInt32)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.UInt32)"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkUdpDeviceBaseExtension.WriteUInt32Array(HslCommunication.Core.Net.NetworkUdpDeviceBase,System.String,System.UInt32[])">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.UInt32[])"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkUdpDeviceBaseExtension.WriteInt64(HslCommunication.Core.Net.NetworkUdpDeviceBase,System.String,System.Int64)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.Int64)"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkUdpDeviceBaseExtension.WriteInt64Array(HslCommunication.Core.Net.NetworkUdpDeviceBase,System.String,System.Int64[])">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.Int64[])"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkUdpDeviceBaseExtension.WriteUInt64(HslCommunication.Core.Net.NetworkUdpDeviceBase,System.String,System.UInt64)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.UInt64)"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkUdpDeviceBaseExtension.WriteUInt64Array(HslCommunication.Core.Net.NetworkUdpDeviceBase,System.String,System.UInt64[])">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.UInt64[])"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkUdpDeviceBaseExtension.WriteSingle(HslCommunication.Core.Net.NetworkUdpDeviceBase,System.String,System.Single)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.Single)"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkUdpDeviceBaseExtension.WriteSingleArray(HslCommunication.Core.Net.NetworkUdpDeviceBase,System.String,System.Single[])">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.Single[])"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkUdpDeviceBaseExtension.WriteDouble(HslCommunication.Core.Net.NetworkUdpDeviceBase,System.String,System.Double)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.Double)"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkUdpDeviceBaseExtension.WriteDoubleArray(HslCommunication.Core.Net.NetworkUdpDeviceBase,System.String,System.Double[])">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.Double[])"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkUdpDeviceBaseExtension.WriteString(HslCommunication.Core.Net.NetworkUdpDeviceBase,System.String,System.String)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.String)"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkUdpDeviceBaseExtension.WaitBool(HslCommunication.Core.Net.NetworkUdpDeviceBase,System.String,System.Boolean,System.Int32,System.Int32)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Wait(System.String,System.Boolean,System.Int32,System.Int32)"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkUdpDeviceBaseExtension.WaitInt16(HslCommunication.Core.Net.NetworkUdpDeviceBase,System.String,System.Int16,System.Int32,System.Int32)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Wait(System.String,System.Int16,System.Int32,System.Int32)"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkUdpDeviceBaseExtension.WaitUInt16(HslCommunication.Core.Net.NetworkUdpDeviceBase,System.String,System.UInt16,System.Int32,System.Int32)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Wait(System.String,System.UInt16,System.Int32,System.Int32)"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkUdpDeviceBaseExtension.WaitInt32(HslCommunication.Core.Net.NetworkUdpDeviceBase,System.String,System.Int32,System.Int32,System.Int32)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Wait(System.String,System.Int32,System.Int32,System.Int32)"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkUdpDeviceBaseExtension.WaitUInt32(HslCommunication.Core.Net.NetworkUdpDeviceBase,System.String,System.UInt32,System.Int32,System.Int32)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Wait(System.String,System.UInt32,System.Int32,System.Int32)"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkUdpDeviceBaseExtension.WaitInt64(HslCommunication.Core.Net.NetworkUdpDeviceBase,System.String,System.Int64,System.Int32,System.Int32)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Wait(System.String,System.Int64,System.Int32,System.Int32)"/>
+        </member>
+        <member name="M:HslCppExtension.NetworkUdpDeviceBaseExtension.WaitUInt64(HslCommunication.Core.Net.NetworkUdpDeviceBase,System.String,System.UInt64,System.Int32,System.Int32)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Wait(System.String,System.UInt64,System.Int32,System.Int32)"/>
+        </member>
+        <member name="T:HslCppExtension.SerialDeviceBaseExtension">
+            <summary>
+            SerialDeviceBase的写入数据的方法扩展，方便CPP项目的调用，解决方法重载的问题。
+            </summary>
+        </member>
+        <member name="M:HslCppExtension.SerialDeviceBaseExtension.WriteInt16(HslCommunication.Serial.SerialDeviceBase,System.String,System.Int16)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.Int16)"/>
+        </member>
+        <member name="M:HslCppExtension.SerialDeviceBaseExtension.WriteInt16Array(HslCommunication.Serial.SerialDeviceBase,System.String,System.Int16[])">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.Int16[])"/>
+        </member>
+        <member name="M:HslCppExtension.SerialDeviceBaseExtension.WriteUInt16(HslCommunication.Serial.SerialDeviceBase,System.String,System.UInt16)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.UInt16)"/>
+        </member>
+        <member name="M:HslCppExtension.SerialDeviceBaseExtension.WriteUInt16Array(HslCommunication.Serial.SerialDeviceBase,System.String,System.UInt16[])">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.UInt16[])"/>
+        </member>
+        <member name="M:HslCppExtension.SerialDeviceBaseExtension.WriteInt32(HslCommunication.Serial.SerialDeviceBase,System.String,System.Int32)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.Int32)"/>
+        </member>
+        <member name="M:HslCppExtension.SerialDeviceBaseExtension.WriteInt32Array(HslCommunication.Serial.SerialDeviceBase,System.String,System.Int32[])">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.Int32[])"/>
+        </member>
+        <member name="M:HslCppExtension.SerialDeviceBaseExtension.WriteUInt32(HslCommunication.Serial.SerialDeviceBase,System.String,System.UInt32)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.UInt32)"/>
+        </member>
+        <member name="M:HslCppExtension.SerialDeviceBaseExtension.WriteUInt32Array(HslCommunication.Serial.SerialDeviceBase,System.String,System.UInt32[])">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.UInt32[])"/>
+        </member>
+        <member name="M:HslCppExtension.SerialDeviceBaseExtension.WriteInt64(HslCommunication.Serial.SerialDeviceBase,System.String,System.Int64)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.Int64)"/>
+        </member>
+        <member name="M:HslCppExtension.SerialDeviceBaseExtension.WriteInt64Array(HslCommunication.Serial.SerialDeviceBase,System.String,System.Int64[])">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.Int64[])"/>
+        </member>
+        <member name="M:HslCppExtension.SerialDeviceBaseExtension.WriteUInt64(HslCommunication.Serial.SerialDeviceBase,System.String,System.UInt64)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.UInt64)"/>
+        </member>
+        <member name="M:HslCppExtension.SerialDeviceBaseExtension.WriteUInt64Array(HslCommunication.Serial.SerialDeviceBase,System.String,System.UInt64[])">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.UInt64[])"/>
+        </member>
+        <member name="M:HslCppExtension.SerialDeviceBaseExtension.WriteSingle(HslCommunication.Serial.SerialDeviceBase,System.String,System.Single)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.Single)"/>
+        </member>
+        <member name="M:HslCppExtension.SerialDeviceBaseExtension.WriteSingleArray(HslCommunication.Serial.SerialDeviceBase,System.String,System.Single[])">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.Single[])"/>
+        </member>
+        <member name="M:HslCppExtension.SerialDeviceBaseExtension.WriteDouble(HslCommunication.Serial.SerialDeviceBase,System.String,System.Double)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.Double)"/>
+        </member>
+        <member name="M:HslCppExtension.SerialDeviceBaseExtension.WriteDoubleArray(HslCommunication.Serial.SerialDeviceBase,System.String,System.Double[])">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.Double[])"/>
+        </member>
+        <member name="M:HslCppExtension.SerialDeviceBaseExtension.WriteString(HslCommunication.Serial.SerialDeviceBase,System.String,System.String)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Write(System.String,System.String)"/>
+        </member>
+        <member name="M:HslCppExtension.SerialDeviceBaseExtension.WaitBool(HslCommunication.Serial.SerialDeviceBase,System.String,System.Boolean,System.Int32,System.Int32)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Wait(System.String,System.Boolean,System.Int32,System.Int32)"/>
+        </member>
+        <member name="M:HslCppExtension.SerialDeviceBaseExtension.WaitInt16(HslCommunication.Serial.SerialDeviceBase,System.String,System.Int16,System.Int32,System.Int32)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Wait(System.String,System.Int16,System.Int32,System.Int32)"/>
+        </member>
+        <member name="M:HslCppExtension.SerialDeviceBaseExtension.WaitUInt16(HslCommunication.Serial.SerialDeviceBase,System.String,System.UInt16,System.Int32,System.Int32)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Wait(System.String,System.UInt16,System.Int32,System.Int32)"/>
+        </member>
+        <member name="M:HslCppExtension.SerialDeviceBaseExtension.WaitInt32(HslCommunication.Serial.SerialDeviceBase,System.String,System.Int32,System.Int32,System.Int32)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Wait(System.String,System.Int32,System.Int32,System.Int32)"/>
+        </member>
+        <member name="M:HslCppExtension.SerialDeviceBaseExtension.WaitUInt32(HslCommunication.Serial.SerialDeviceBase,System.String,System.UInt32,System.Int32,System.Int32)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Wait(System.String,System.UInt32,System.Int32,System.Int32)"/>
+        </member>
+        <member name="M:HslCppExtension.SerialDeviceBaseExtension.WaitInt64(HslCommunication.Serial.SerialDeviceBase,System.String,System.Int64,System.Int32,System.Int32)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Wait(System.String,System.Int64,System.Int32,System.Int32)"/>
+        </member>
+        <member name="M:HslCppExtension.SerialDeviceBaseExtension.WaitUInt64(HslCommunication.Serial.SerialDeviceBase,System.String,System.UInt64,System.Int32,System.Int32)">
+            <inheritdoc cref="M:HslCommunication.Core.IReadWriteNet.Wait(System.String,System.UInt64,System.Int32,System.Int32)"/>
+        </member>
+    </members>
+</doc>
